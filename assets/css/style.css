@@ -1006,10 +1006,6 @@
     left: 50%;
 }
 
-.vinfast-form .group-customer {
-    margin: 0 12px;
-}
-
 .group-title {
     padding: 30px 0;
     font-size: 16px;
@@ -1090,10 +1086,6 @@
     outline: none;
 }
 
-.vinfast-form .group-showroom {
-    margin: 0 12px;
-}
-
 .group-input--place:nth-child(1) {
     padding-right: 15px;
 }
@@ -1120,10 +1112,6 @@
     outline: none;
 }
 
-.vinfast-form .group-checkbox {
-    margin: 0 12px;
-}
-
 .vinfast-form .group-checkbox .group-input {
     position: relative;
 }
@@ -1138,7 +1126,7 @@
 
 .group-pay .group-input label,
 .group-checkbox .group-input label {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     position: relative;
 }
@@ -1201,10 +1189,6 @@
     display: block;
 }
 
-.vinfast-form .group-pay {
-    margin: 0 12px;
-}
-
 .group-pay .group-input {
     position: relative;
 }
@@ -1258,6 +1242,7 @@
 }
 
 .vf-payment .content {
+    font-size: 13px;
     font-weight: 600;
     margin-bottom: 22px;
 }
@@ -1342,10 +1327,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .submit span{
-    width: 50%;
+    width: 48%;
     height: 40px;
     font-size: 13px;
     font-weight: 400;
@@ -1360,6 +1346,7 @@
 
 /* Footer */
 #footer {
+    margin-top: 80px;
     border-top: 6px solid #2C72C6;
 }
 

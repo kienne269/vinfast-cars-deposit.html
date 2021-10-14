@@ -51,14 +51,6 @@
         left: -3px;
     }
 
-    .group-checkbox :not(.group-input:nth-child(2)) label {
-        padding-left: 23px;
-    }
-
-    .group-checkbox .group-input:nth-child(2) label {
-        padding-left: 23px;
-    }
-
 /* Header */
     #header {
         height: 70px;
@@ -179,10 +171,6 @@
     }
     
     /* Footer */
-    #footer {
-        margin-top: 80px;
-    }
-
     #footer .container:nth-child(2) .row:nth-child(4) {
         display: block;
     }
