@@ -1231,8 +1231,13 @@
 }
 
 .group-pay .group-input input:checked ~  .vf-payment {
-    height: 100%;
-    transition: all 0.3s linear;
+    height: 540.6px;
+    transition: all 0.5s ease-in-out;
+}
+
+.group-pay .group-input input:not(:checked) ~  .vf-payment {
+    height: 0;
+    transition: all 0.5s ease-in-out;
 }
 
 .vf-payment {
